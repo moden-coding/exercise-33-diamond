@@ -6,7 +6,10 @@ def diamond(n):
     return np.array([])
 
 def main():
-    pass
+    n = 4
+    result = diamond(n)
+    print(f"diamond({n}):")
+    print(result)
 
 if __name__ == "__main__":
     main()
